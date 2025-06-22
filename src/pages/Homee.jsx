@@ -100,7 +100,7 @@ const Homee = () => {
           <div className="sub-title">خطة الترحيل للطلبة والطالبات لعام 1447هـ</div>
 
           <button className="main-button" onClick={() => navigate("/region")}>
-            عرض المدارس حسب المنطقة
+            عرض المدارس حسب المحافظة
           </button>
         </div>
       </div>

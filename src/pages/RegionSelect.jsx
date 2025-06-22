@@ -117,7 +117,6 @@ const RegionSelect = () => {
             <hr />
           </div>
 
-          <div className="sub-title">اختر المنطقة</div>
 
           <div className="regions-grid">
             {regions.map((region, index) => (

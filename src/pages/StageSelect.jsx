@@ -129,7 +129,6 @@ const StageSelect = () => {
             <div>الجنس: {getGenderName(gender)}</div>
           </div>
 
-          <div className="sub-title">اختر المرحلة التعليمية</div>
 
           <div className="stages-grid">
             {stages.map((stage, index) => (
