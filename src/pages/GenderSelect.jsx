@@ -118,20 +118,19 @@ const GenderSelect = () => {
             <div>المنطقة: {decodeURIComponent(region)}</div>
           </div>
 
-          <div className="sub-title">اختر الجنس</div>
 
           <div className="gender-grid">
             <button
               className="gender-button"
               onClick={() => handleGenderSelect('boys')}
             >
-              تشكيلات مدارس البنين
+               مدارس البنين
             </button>
             <button
               className="gender-button"
               onClick={() => handleGenderSelect('girls')}
             >
-            تشكيلات مدارس البنات
+             مدارس البنات
 
             </button>
           </div>
